@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <style>
+        .faixa {
+            background-color: rgb(237, 113, 18);
+            height: 50px;
+            width: 100%;
+        }
+
+        .cor_menu {
+            background-color: rgb(30, 28, 67);
+            height: 100px;
+            padding-top: 30px;
+            text-transform: uppercase;
+
+
+        }
+
+        body {
+            background-color: #ed7112;
+            ;
+        }
+
+        .fundo {
+            background-color: rgb(30, 28, 67);
+        }
+
+        h1 {
+            color: rgb(237, 113, 18);
+        }
+
+
+        .bto {
+            background-color: rgb(237, 113, 18);
+            color: rgb(30, 28, 67);
+        }
+
+        a {
+            color: rgb(237, 113, 18);
+            text-decoration: underline;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ed7112;
+            ;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            width: 50px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="faixa"> </div>
+    <!--INICIO MENU-->
+
+    <ul class="nav justify-content-center cor_menu">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html" style="color:rgb(237, 113, 18);">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="times.html" style="color:rgb(237, 113, 18);">Times</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="noticias.html" style="color:rgb(237, 113, 18);">Notícias</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="campeonatos.html" style="color:rgb(237, 113, 18);">Campeonato</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cadastro.html" style="color:rgb(237, 113, 18);">Cadastro</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="sobrenos.html" style="color:rgb(237, 113, 18);">Sobre nós</a>
+        </li>
+    </ul>
+
+    <!--FIM MENU-->
+
+
+    <!--tabela inicio -->
+    <h1>Quadro de Campeonatos Brasileiros de Futebol</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Logo</th>
+                <th>Nome do Campeonato</th>
+                <th>Ano</th>
+                <th>Campeão</th>
+                <th>Vice-Campeão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.cbf.com.br/busca/serie%20a?" target="_blank"><img src="serie A.jpeg" alt="Logo Série A"></a> </td>
+                <td>Campeonato Brasileiro Série A</td>
+                <td>2023</td>
+                <td><a href="https://www.palmeiras.com.br/" target="_blank">Palmeiras</a></td>
+                <td><a href="https://www.flamengo.com.br/" target="_blank">Flamengo</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.cbf.com.br/busca/serie%20b?" target="_blank"><img src="Serie B.jfif" alt="Logo Série B"> </td>
+                <td>Campeonato Brasileiro Série B</td>
+                <td>2023</td>
+                <td><a href="https://www.cruzeiro.com.br/" target="_blank">Cruzeiro</a></td>
+                <td><a href="https://gremio.net/" target="_blank">Grêmio</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.cbf.com.br/busca/serie%20c?" target="_blank"><img src="Serie C.jpeg" alt="Logo Série C"> </td>
+                <td>Campeonato Brasileiro Série C</td>
+                <td>2023</td>
+                <td><a href="https://abcfc.com.br/" target="_blank">ABC</a></td>
+                <td><a href="https://www.mirassolfc.com.br/" target="_blank">Mirassol</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.cbf.com.br/busca/serie%20d?" target="_blank"><img src="Serie D.jpeg" alt="Logo Série d"> </td>
+                <td>Campeonato Brasileiro Série D</td>
+                <td>2023</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_Atl%C3%A9tica_Aparecidense" target="_blank">Aparecidense</a></td>
+                <td><a href="https://pt.wikipedia.org/wiki/Campinense_Clube" target="_blank">Campinense</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--tabela fim-->
+
+
+   
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="50" height="30">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; ONEEFV Company, Inc</span>
+
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook" />
+                        </svg></a></li>
+            </ul>
+        </footer>
+    </div>
+
+   
